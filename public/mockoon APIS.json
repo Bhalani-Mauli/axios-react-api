@@ -1,0 +1,279 @@
+{
+    "source": "mockoon:1.15.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 17,
+                "name": "Mauli Practice API",
+                "endpointPrefix": "api",
+                "latency": 0,
+                "port": 8081,
+                "hostname": "0.0.0.0",
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "Returns list of shopping items",
+                        "method": "get",
+                        "endpoint": "shopping",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"items\": [\n    {\n      \"id\": 123,\n      \"name\": \"Asus Rog Laptop\",\n      \"price\": 1000,\n      \"description\": \"The perfect laptop for gaming from home and best in class features with robust body\",\n      \"image\": \"https://image.shutterstock.com/shutterstock/photos/1728120208/display_1500/stock-photo-jakarta-indonesia-monday-may-laptop-asus-rog-strix-1728120208.jpg\"\n    },\n    {\n      \"id\": 456,\n      \"name\": \"Macbook M1 2020\",\n      \"price\": 1099,\n      \"description\": \"The perfect laptop for you need. Feel the power and performance of our in house fastest chip M1.\",\n      \"image\": \"https://image.shutterstock.com/image-photo/december-03-2020-new-macbook-600w-1867182559.jpg\"\n    },\n    {\n      \"id\": 789,\n      \"name\": \"Lenovo V15 2021\",\n      \"price\": 700,\n      \"description\": \"The cheapest laptop for work from home and best in class. 1 year on site warranty.\",\n      \"image\": \"https://image.shutterstock.com/image-photo/jakarta-indonesia-january-11-2019-600w-1281161716.jpg\"\n    },\n    {\n      \"id\": 789,\n      \"name\": \"HP elitebook\",\n      \"price\": 1010,\n      \"description\": \"The perfect laptop for work from home and best in class features with robust body\",\n      \"image\": \"https://image.shutterstock.com/image-photo/jakarta-indonesia-desember-26-2019-600w-1598491105.jpg\"\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Add new shopping item list of shopping items",
+                        "method": "post",
+                        "endpoint": "shopping",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"items\": [\n    {\n      \"id\": 123,\n      \"name\": \"Asus Rog Laptop\",\n      \"price\": 1000,\n      \"description\": \"The perfect laptop for gaming from home and best in class features with robust body\",\n      \"image\": \"https://image.shutterstock.com/shutterstock/photos/1728120208/display_1500/stock-photo-jakarta-indonesia-monday-may-laptop-asus-rog-strix-1728120208.jpg\"\n    },\n    {\n      \"id\": 456,\n      \"name\": \"Macbook M1 2020\",\n      \"price\": 1099,\n      \"description\": \"The perfect laptop for you need. Feel the power and performance of our in house fastest chip M1.\",\n      \"image\": \"https://image.shutterstock.com/image-photo/december-03-2020-new-macbook-600w-1867182559.jpg\"\n    },\n    {\n      \"id\": 789,\n      \"name\": \"Lenovo V15 2021\",\n      \"price\": 700,\n      \"description\": \"The cheapest laptop for work from home and best in class. 1 year on site warranty.\",\n      \"image\": \"https://image.shutterstock.com/image-photo/jakarta-indonesia-january-11-2019-600w-1281161716.jpg\"\n    },\n    {\n      \"id\": 800,\n      \"name\": \"HP elitebook\",\n      \"price\": 1010,\n      \"description\": \"The perfect laptop for work from home and best in class features with robust body\",\n      \"image\": \"https://image.shutterstock.com/image-photo/jakarta-indonesia-desember-26-2019-600w-1598491105.jpg\"\n    },\n        {\n      \"id\": 900,\n      \"name\": \"Wacom tablet\",\n      \"price\": 57,\n      \"description\": \"The perfect tablet for work from home and best in class features with robust body\",\n      \"image\": \"https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-77346059/fee_786_587_png\"\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Return list of cities",
+                        "method": "get",
+                        "endpoint": "cities",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"cities\": [\n    \"Ahmadabad\",\n    \"Amreli\",\n    \"Bharuch\",\n    \"Bhavnagar\",\n    \"Bhuj\",\n    \"Dwarka\",\n    \"Gandhinagar\",\n    \"Godhra\",\n    \"Jamnagar\",\n    \"Junagadh\",\n    \"Kandla\",\n    \"Khambhat\",\n    \"Kheda\",\n    \"Mahesana\",\n    \"Morvi\",\n    \"Nadiad\",\n    \"Navsari\",\n    \"Okha\",\n    \"Palanpur\",\n    \"Patan\",\n    \"Porbandar\",\n    \"Rajkot\"\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Add new city to list of cities",
+                        "method": "post",
+                        "endpoint": "cities",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"cities\": [\n    \"Ahmadabad\",\n    \"Amreli\",\n    \"Bharuch\",\n    \"Bhavnagar\",\n    \"Bhuj\",\n    \"Dwarka\",\n    \"Gandhinagar\",\n    \"Godhra\",\n    \"Jamnagar\",\n    \"Junagadh\",\n    \"Kandla\",\n    \"Khambhat\",\n    \"Kheda\",\n    \"Mahesana\",\n    \"Morvi\",\n    \"Nadiad\",\n    \"Navsari\",\n    \"Okha\",\n    \"Palanpur\",\n    \"Patan\",\n    \"Porbandar\",\n    \"Rajkot\",\n    \"KESHOD\"\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 201,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Returns list of books",
+                        "method": "get",
+                        "endpoint": "books",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"books\": [\n    {\n      \"userId\": 1,\n      \"id\": 1,\n      \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\",\n      \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n    },\n    {\n      \"userId\": 1,\n      \"id\": 2,\n      \"title\": \"qui est esse\",\n      \"body\": \"est rerum tempore vitae\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\nqui aperiam non debitis possimus qui neque nisi nulla\"\n    },\n    {\n      \"userId\": 1,\n      \"id\": 3,\n      \"title\": \"ea molestias quasi exercitationem repellat qui ipsa sit aut\",\n      \"body\": \"et iusto sed quo iure\\nvoluptatem occaecati omnis eligendi aut ad\\nvoluptatem doloribus vel accusantium quis pariatur\\nmolestiae porro eius odio et labore et velit aut\"\n    },\n    {\n      \"userId\": 1,\n      \"id\": 4,\n      \"title\": \"eum et est occaecati\",\n      \"body\": \"ullam et saepe reiciendis voluptatem adipisci\\nsit amet autem assumenda provident rerum culpa\\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\\nquis sunt voluptatem rerum illo velit\"\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Add new book to list of books",
+                        "method": "post",
+                        "endpoint": "books",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"books\": [\n    {\n      \"userId\": 1,\n      \"id\": 1,\n      \"title\": \"Wire the repellat provident occaecati excepturi optio reprehenderit\",\n      \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n    },\n    {\n      \"userId\": 1,\n      \"id\": 2,\n      \"title\": \"Harry Potter esse\",\n      \"body\": \"est rerum tempore vitae\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\nqui aperiam non debitis possimus qui neque nisi nulla\"\n    },\n    {\n      \"userId\": 1,\n      \"id\": 3,\n      \"title\": \"Queen of exercitationem repellat qui ipsa sit aut\",\n      \"body\": \"et iusto sed quo iure\\nvoluptatem occaecati omnis eligendi aut ad\\nvoluptatem doloribus vel accusantium quis pariatur\\nmolestiae porro eius odio et labore et velit aut\"\n    },\n    {\n      \"userId\": 1,\n      \"id\": 4,\n      \"title\": \"The best est occaecati\",\n      \"body\": \"ullam et saepe reiciendis voluptatem adipisci\\nsit amet autem assumenda provident rerum culpa\\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\\nquis sunt voluptatem rerum illo velit\"\n    },\n    {\n      \"userId\": 1,\n      \"id\": 5,\n      \"title\": \"Wings of Fire\",\n      \"body\": \"The biography for Abdul Kalam and voluptatem adipisci\\nsit amet autem assumenda provident rerum culpa\\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\\nquis sunt voluptatem rerum illo velit\"\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Returns marks of studens in PCM",
+                        "method": "get",
+                        "endpoint": "marks",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"marks\": [\n    { \"id\": 123, \"name\": \"parth\", \"physics\": 84, \"chemestry\": 77, \"maths\": 75 },\n    { \"id\": 456, \"name\": \"mauli\", \"physics\": 84, \"chemestry\": 40, \"maths\": 85 },\n    { \"id\": 789, \"name\": \"parv\", \"physics\": 90, \"chemestry\": 77, \"maths\": 70 },\n    { \"id\": 789, \"name\": \"john\", \"physics\": 30, \"chemestry\": 40, \"maths\": 50 }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Ass new recoed to marks of studens in PCM",
+                        "method": "post",
+                        "endpoint": "marks",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"marks\": [\n    { \"id\": 123, \"name\": \"parth\", \"physics\": 84, \"chemestry\": 77, \"maths\": 75 },\n    { \"id\": 456, \"name\": \"mauli\", \"physics\": 84, \"chemestry\": 40, \"maths\": 85 },\n    { \"id\": 789, \"name\": \"parv\", \"physics\": 90, \"chemestry\": 77, \"maths\": 70 },\n    { \"id\": 789, \"name\": \"john\", \"physics\": 30, \"chemestry\": 40, \"maths\": 50 },\n    { \"id\": 789, \"name\": \"Darson\", \"physics\": 30, \"chemestry\": 42, \"maths\": 46 }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 201,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  status:\"up\"\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "proxyRemovePrefix": false,
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Origin",
+                        "value": "*"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Methods",
+                        "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Headers",
+                        "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

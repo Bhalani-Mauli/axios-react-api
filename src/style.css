@@ -1,0 +1,12 @@
+h1, p {
+  font-family: Lato;
+}
+
+.shoppingList-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.shoppingList-wrapper > * {
+  margin: 10px;
+}
